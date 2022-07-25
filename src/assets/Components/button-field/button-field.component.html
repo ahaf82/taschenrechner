@@ -1,0 +1,30 @@
+<div class="button-field">
+
+	<button class="button button-normal seven" (click)="getNumber(7)">7</button>
+	<button class="button button-normal eight" (click)="getNumber(8)">8</button>
+	<button class="button button-normal nine" (click)="getNumber(9)">9</button>
+	<button class="button button-normal divide" (click)="operate('/')">/</button>
+	<button class="button button-normal clear" (click)="clear()">&lt;-</button>
+
+
+	<button class="button button-normal four" (click)="getNumber(4)">4</button>
+	<button class="button button-normal five" (click)="getNumber(5)">5</button>
+	<button class="button button-normal six" (click)="getNumber(6)">6</button>
+	<button class="button button-normal multiply" (click)="operate('*')">*</button>
+	<button class="button button-normal clearAll" (click)="clearAll()">CE</button>
+
+
+	<button class="button button-normal one" (click)="getNumber(1)">1</button>
+	<button class="button button-normal two" (click)="getNumber(2)">2</button>
+	<button class="button button-normal three" (click)="getNumber(3)">3</button>
+	<button class="button button-normal minus" (click)="operate('-')">-</button>
+	<button class="button button-calculate calculate" (click)="calculate()">=</button>
+
+
+	<button class="button button-0 zero" (click)="getNumber(0)">0</button>
+	<button class="button button-normal comma" (click)="getComma()">,</button>
+	<button class="button button-normal plus" (click)="operate('+')">+</button>
+	<button class="button button-normal plus" (click)="getBracket('(')">(</button>
+	<button class="button button-normal plus" (click)="getBracket(')')">)</button>
+
+</div>

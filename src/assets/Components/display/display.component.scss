@@ -1,0 +1,20 @@
+.display {
+	position: relative;
+	margin: auto;
+	margin-top: 15px;
+	background: white;
+	border: black solid 3px;
+	width: 468px;
+	height: 130px;
+	z-index: 100;
+}
+
+.calculation-string {
+	text-align: right;
+	margin-right: 3%;
+}
+
+.result-on-display {
+	text-align: right;
+	margin-right: 3%;
+}
